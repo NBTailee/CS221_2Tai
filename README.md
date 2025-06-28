@@ -1,18 +1,18 @@
-# 🧠 Aspect-Based Sentiment Analysis (ABSA) using RNN
+# Aspect-Based Sentiment Analysis (ABSA) using RNN
 
 This project implements an **Aspect-Based Sentiment Analysis (ABSA)** model using TensorFlow and `SimpleRNN`. Given a review, the model predicts the **sentiment** (positive, negative, neutral, or not mentioned) for multiple **aspects** such as `FOOD#QUALITY`, `SERVICE#GENERAL`, etc.
 
 ---
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 Your dataset must be in `.csv` format and follow this structure:
 
 | Review                                  | FOOD#QUALITY | SERVICE#GENERAL | ... |
 |-----------------------------------------|--------------|------------------|-----|
-| "The food was great but service was slow" | 1            | 2                | ... |
+| "Đồ ăn khá ngon skirt skirt" | 1            | 2                | ... |
 
-### 🔢 Label Encoding
+### Label Encoding
 
 | Value | Meaning        |
 |-------|----------------|
@@ -25,7 +25,7 @@ Your dataset must be in `.csv` format and follow this structure:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install Python dependencies:
 
