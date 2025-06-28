@@ -1,4 +1,4 @@
-# Aspect-Based Sentiment Analysis (ABSA) using RNN
+# Aspect-Based Sentiment Analysis (ABSA) using Logistic Regression, RNN, LSTM
 
 This project implements an **Aspect-Based Sentiment Analysis (ABSA)** model using TensorFlow and `SimpleRNN`. Given a review, the model predicts the **sentiment** (positive, negative, neutral, or not mentioned) for multiple **aspects** such as `FOOD#QUALITY`, `SERVICE#GENERAL`, etc.
 
